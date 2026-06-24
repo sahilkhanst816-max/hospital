@@ -15,7 +15,7 @@ app.use(cookieParser())
 app.use(express.json())
 app.use(cors(
     {
-        origin: 'https://sahilkhanst816-max.github.io/hospital-F/',
+        origin: ['https://sahilkhanst816-max.github.io', 'http://localhost:5173'],
         credentials: true
     }
 ))
